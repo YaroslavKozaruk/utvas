@@ -1,0 +1,291 @@
+html{
+	scroll-behavior: smooth;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 20px;
+	color: #fff;
+	background: rgb(49, 50, 53); 
+}
+.nav-link {
+	color: #fff;
+	font-weight: 500;
+}
+.nav-link:hover{
+	color:  #e74c3c;
+}
+a:hover {
+	color: #e74c3c;
+}
+.header-background {
+	position: static;
+	display: block;
+	overflow: visible;
+	top: 0;
+	height: auto;
+	min-height: 750px;
+	padding-bottom: 70px;
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(50,58,69,0.55), rgba(50,58,69,0.74)) , url(../img/picture2_letnie-karpaty-sk_344525_p0.jpg);
+	background-position:0px 0px, 100% 50%;
+	background-size: auto, cover;
+	background-position: 0px 0px, 100% 50%;
+	background-size: auto, cover; 
+	white-space: normal;
+	object-fit: fill;
+	-o-object-fit: fill;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction:column;
+	-ms-flex-direction: column;   
+}
+.sticky-nav {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	padding: 20px;
+	z-index: 1;
+	-webkit-align-self: auto;
+	-ms-flex-item-align: auto;
+	-ms-grid-row-align: auto;
+	align-self: auto;
+	-webkit-bok-ordinal-group:1;
+	-webkit-order: 0;
+	-ms-flex-order: 0;
+	order: 0;
+	background-color: rgba(12,32,59,0.5);
+}
+.navbar .navbar-brand a {
+	padding: 1rem 0;
+	display: block;
+	text-decoration: none;
+	font-weight: 700;
+	
+}
+.navbar-brand {
+	font-size: 1.8rem;
+	color: white;
+}
+.navbar-toggler {
+	border: none;
+	padding: 10px 6px;
+	outline: none;
+}
+.navbar-toggler span {
+	display: block;
+	width: 22px;
+	height: 2px;
+	border: 1px;
+	background: #fff;
+}
+.navbar-toggler span + span {
+	margin-top: 4px;
+	width: 22px;
+}
+.navbar-toggler span + span {
+	width: 22px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: 1.4rem 1rem;
+	font-size: 1.2rem;
+	position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+	color: red;
+}
+.btn {
+	background-color: #e74c3c;
+	color: white;
+	border-radius: 10px;
+	padding: 1rem 1.5rem;
+	font-size: 1.2rem;
+}
+.btn:hover{
+	background-color: #0a3d62;
+	color: white;
+}
+.heading {
+	font-size: 4rem;
+	font-weight: bold;
+	line-height: 1.4;
+	text-align: center;
+	color: #fff;
+	margin-top: 180px;
+	margin-bottom: 8px;
+	min-height: 100px;
+}
+
+.column-left {
+	min-height: 750px;
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/bereg-okeana-na-voshode.jpg);
+	background-position:0px 0px, 100% 50%;
+	background-size: auto, cover;
+	background-attachment: scroll, scroll;
+	object-fit: cover;
+	-o-object-fit: cover;
+}
+.column-right .section-title {
+	margin-top: 80px;
+	padding: 5rem 2rem 0rem 5rem;
+	font-size: 2.8rem;
+	color: #fff;
+	font-weight: 500;
+}
+.paragraph {
+	margin-top: 15px;
+	padding: 1rem 5rem 1rem 5rem;
+	font-size: 1.1rem;
+	color: #fff;
+	line-height: 1.4;
+	text-align: justify;
+}
+.my-services-right {
+	min-height: 750px;
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/08oil-port.jpg);
+	background-position:0px 0px, 100% 50%;
+	background-size: auto, cover;
+	background-attachment: scroll, scroll;
+	object-fit: cover;
+	-o-object-fit: cover;
+}
+.img-1 {
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/02.jpg);
+}
+.img-2 {
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/03.jpg);
+}
+.img-3 {
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/04.jpg);
+}
+.img-4 {
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/05.jpg);
+}
+.img-5 {
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/09.jpg);
+}
+.img-6 {
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/10.jpg);
+}
+.text-left-block {
+	width: 100%;
+	left: 0;
+	height: 100%;
+	z-index: 999;
+	overflow: hidden;
+}
+.text-left-block .left-center-text {
+	display: table;
+	position: relative;
+	height: 100vh;
+	padding: 0 10%;
+}
+.team-member {
+	max-height: 300px;
+	max-width: 300px;
+}
+
+
+
+.contact-right {
+	min-height: 750px;
+	background-image: -webkit-gradient(linear, left top,left bottom, from(rgba(12,32,59,0.9)));
+	background-image: linear-gradient(180deg, rgba(12,32,59,0.55), rgba(12,32,59,0.74)) , url(../img/bereg-okeana-na-voshode.jpg);
+	background-position:  0px 0px, 100% 50%;
+	background-size: auto, cover;
+	background-attachment: scroll, scroll;
+	object-fit: cover;
+	-o-object-fit: cover;
+}
+.contact-section {
+	padding: 5rem 0rem 1rem 0rem;
+	font-size: 2.8rem;
+	font-weight: 500;
+
+}
+.contact-left .paragraph {
+	padding: 0rem 3rem 0rem 0rem;
+	font-size: 1rem;
+	line-height: 1.2;
+
+}
+.strong {
+	color: #fff;
+	font-weight: 700;
+}
+.phone-mail-link {
+	color: #fff;
+	font-weight: bold;
+}
+.phone-mail-link:hover {
+	color: red;
+}
+#contact-form {
+	margin-top: 40px;
+}
+#contact-form .form-control {
+	background: #2e353f;
+	border: none;
+	border-radius: .3rem;
+	box-shadow: none;
+	font-weight: 300;
+	outline: medium none;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	line-height: 1.2;
+	height: auto;
+	width: 100%;
+	color: #fff;
+	margin-bottom: 1rem;
+	transition: all .2s ease-in-out;
+	text-align: left;
+}
+#contact-form .form-control:hover,#contact-form .form-control:focus {
+	box-shadow: none;
+	background: #293039;
+}
+#contact-form textarea.form-control {
+	min-height: 8rem;
+}
+#contact-form span.sub-text {
+	color: #939da5;
+	position: absolute;
+	font-size: 0.9rem;
+	right: 5rem;
+}
+#contact-form button#valid-form {
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	color: #fff;
+	margin: auto;
+	margin-top: 1rem;
+	border-radius: 2rem;
+	border: none;
+	display: inline-block;
+}
+#contact-form button#valid-form:hover {
+   background: #00e2c0;
+}
+.copyright {
+	position: absolute;
+	left: 5rem;
+	bottom: -145px;
+	font-size: 0.8rem;
+	font-weight: 300;
+	line-height: 5rem;
+	z-index: 999;
+}
+
+
